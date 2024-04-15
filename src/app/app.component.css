@@ -1,0 +1,45 @@
+.search-input {
+    padding: 8px 15px; /* Padding for better text visibility */
+    margin: 10px 0; /* Margin for spacing */
+    box-sizing: border-box; /* Includes padding and border in the element's width */
+    border: 2px solid #ccc; /* Solid border with a light gray color */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 16px; /* Larger text for better readability */
+    background-color: white; /* White background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+    margin-left: 10px;
+  }
+  
+  .search-input:focus {
+    border-color: #0066cc; /* Highlight color when focused */
+    outline: none; /* Removes the default focus outline */
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    flex-direction: column;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+  
